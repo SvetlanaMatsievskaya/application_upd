@@ -1,0 +1,6 @@
+Flask-CLI
+pickle-mixin
+scikit-learn
+numpy
+pandas
+gunicorn
