@@ -8,6 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import Normalizer, LabelEncoder, MinMaxScaler, StandardScaler
 df = pd.read_excel('df_clean.xlsx')
+
 df.drop(df.columns[df.columns.str.contains('unnamed', case=False)],
            axis=1,
            inplace=True)
